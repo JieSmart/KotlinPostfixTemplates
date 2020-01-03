@@ -1,4 +1,4 @@
 .reqx : 创建一个请求
-	ANY  [com.server.smartrun.net.requestData]	→	com.server.smartrun.net.requestData{ $expr$ }\
+	ANY  →	requestData{ $expr$ }\
 .onSuccess{ \
 }
